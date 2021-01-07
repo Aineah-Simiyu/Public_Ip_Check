@@ -1,7 +1,7 @@
 import aiohttp
 import asyncio
 import json
-i
+import sys
 
 url = 'https://api.myip.com'
 
