@@ -1,6 +1,7 @@
 import aiohttp
 import asyncio
 import json
+i
 
 url = 'https://api.myip.com'
 
@@ -10,4 +11,4 @@ async def check_ip():
             r = await resp.text()
             results = json.loads(r)
             print(results)
-asyncio.run(check_ip)                       
+asyncio.run(check_ip())                       
