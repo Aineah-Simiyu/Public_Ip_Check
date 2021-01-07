@@ -16,4 +16,5 @@ async def check_ip():
             r = await resp.text()
             results = json.loads(r)
             print(results)
+            
 asyncio.run(check_ip())                       
